@@ -1,0 +1,15 @@
+$border: 1px solid #E1E3DF;
+
+container {
+  width: 100%;
+}
+
+header {
+  border: $border;
+  height: 80px;
+}
+
+.greySelectors {
+  border: $border;
+  height: 44px;
+}
