@@ -1,9 +1,29 @@
 container {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
+
+a {
+  text-decoration: none; }
 
 header {
-  border: 1px solid #E1E3DF;
-  height: 80px; }
+  padding: 25px;
+  border: 1px solid #E1E3DF; }
+  header .title a {
+    color: #F56400;
+    font-family: 'Alegreya', serif;
+    font-size: 40px; }
+  header .title button {
+    border: 1px solid #40B0DC;
+    background-color: #40B0DC;
+    color: white; }
+  header .sideSelectors {
+    float: right; }
+  header .sideSelectors a {
+    color: #34A8C4; }
+  header .sideSelectors button {
+    background-color: white;
+    color: #34A8C4;
+    border: 1px solid #34A8C4; }
 
 .greySelectors {
   border: 1px solid #E1E3DF;

@@ -2,13 +2,48 @@ $border: 1px solid #E1E3DF;
 
 container {
   width: 100%;
+  position: relative;
 }
 
+a {
+  text-decoration: none;
+}
 header {
+  padding: 25px;
   border: $border;
-  height: 80px;
+
+  .title {
+    // margin-right: 500px;
+  }
+
+.title a{
+  color: #F56400;
+  font-family: 'Alegreya', serif;
+  font-size: 40px;
 }
 
+.title button {
+  border: 1px solid #40B0DC;
+  background-color: #40B0DC;
+  color: white;
+}
+.search {
+  // width: 475px;
+
+}
+.sideSelectors {
+  float: right;
+}
+.sideSelectors a {
+  color: #34A8C4;
+}
+.sideSelectors button {
+  background-color: white;
+  color: #34A8C4;
+  border: 1px solid #34A8C4;
+}
+
+}
 .greySelectors {
   border: $border;
   height: 44px;
