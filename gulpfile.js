@@ -14,21 +14,20 @@ const gulp        = require('gulp'),
       watch       = require('gulp-watch'),
       browserSync = require('browser-sync').create();
 
-      // Function to handle errors.
-       +// Prevents Gulp from stopping.
-       +var handleError = function(err) {
-       +  notify.onError("Oops: We found an error!")(err);
-       +  console.log(chalk.white.bgRed(' <error> ------------------------ '));
-       +  console.log(chalk.white(err.message));
-       +  console.log(chalk.white.bgRed(' </error> ----------------------- '));
-       +  this.emit('end');
-       +}
+// Function to handle errors.
+// Prevents Gulp from stopping.
+var handleError = function(err) {
+  notify.onError("Oops: We found an error!")(err);
+  console.log(chalk.white.bgRed(' <error> ------------------------ '));
+  console.log(chalk.white(err.message));
+  console.log(chalk.white.bgRed(' </error> ----------------------- '));
+  this.emit('end');
+}
 
 // Converts SASS into CSS
 gulp.task('sass', () => {
   gulp.src('./src/sass/main.scss')
     .pipe(sourcemaps.init({ loadMaps: true }))
-    // .pipe(sass())
     .pipe(sass().on('error', handleError))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./app/css'));

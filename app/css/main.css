@@ -79,8 +79,18 @@ header {
   font-size: 13px;
   background-color: #F5F5F1; }
 
+.products {
+  width: 900px;
+  position: absolute;
+  right: -63px;
+  top: 179px; }
+
 .imageArea {
-  width: 700px; }
+  width: 250px;
+  border: 1px solid red;
+  float: left; }
+  .imageArea .img {
+    width: 200px; }
 
 .sidebar {
   width: 200px;
@@ -95,7 +105,8 @@ header {
     padding-bottom: 10px; }
 
 .bottom {
-  border: 1px solid red; }
+  border: 1px solid red;
+  clear: both; }
   .bottom a {
     font-size: 13px;
     color: #34A8C4;

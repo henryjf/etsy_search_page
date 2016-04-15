@@ -104,8 +104,29 @@ right:-66px;
     font-size: 13px;
     background-color: #F5F5F1;
   }
+
+  .products{
+    width: 900px;
+    position:absolute;
+    right: -63px;
+    top: 179px;
+  }
+
   .imageArea {
-    width: 700px;
+    width: 250px;
+    border: 1px solid red;
+    float: left;
+    // position: absolute;
+    // right: 25px;
+    // top: 175px;
+
+    .img {
+      width: 200px;
+    }
+
+    // .img {
+    //   width:
+    // }
   }
   .sidebar {
     width: 200px;
@@ -126,6 +147,7 @@ right:-66px;
 
   .bottom {
     border: 1px solid red;
+    clear: both;
     a {
       font-size: 13px;
       color: #34A8C4;

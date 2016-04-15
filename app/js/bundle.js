@@ -9860,26 +9860,24 @@ var _etsyinfo2 = _interopRequireDefault(_etsyinfo);
 
 console.log(_etsyinfo2['default'].results);
 
-// var cont = $('.container');
+var prod = (0, _jquery2['default'])('.products');
 var items = _etsyinfo2['default'].results;
 
-console.log(items);
-//   return etsyImages.results.image.url_170x135;
-// });
-// console.log(results)
-//
-//
-// etsyImages.results.forEach (function(image) {
-// console.log(image.url_170x135)
-//   var imageArea = `
-//   <div class="imageArea">
-//   <img src="${image.url_170x135}">
-//   <h6>${etsyImages.results.title}</h6>
-//   </div>
-//   `
-//
-//   results.append(imageArea);
-// });
+items.forEach(function (item) {
+  var image = item.Images[0].url_170x135;
+  console.log(image);
+  // })
+
+  console.log(items);
+  // return etsyImages.results.image.url_170x135;
+  // });
+
+  // items.forEach (function(image) {
+  // console.log(image.url_170x135)
+  var imageArea = '\n  <div class="imageArea">\n  <img class="images" src="' + item.Images[0].url_170x135 + '">\n  <h6>' + items.title + '</h6>\n  </div>\n  ';
+
+  prod.append(imageArea);
+});
 
 },{"./etsyinfo":2,"jquery":1}]},{},[3])
 
