@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 header {
-  padding: 25px;
+   padding: 10px 5px 10px 25px;
   border: $border;
 
   .title {
@@ -19,25 +19,44 @@ header {
 .title a{
   color: #F56400;
   font-family: 'Alegreya', serif;
-  font-size: 40px;
+  font-size: 42px;
 }
 
 .title button {
+  font-size: 14px;
+  padding: 7px 15px 9px 15px ;
   border: 1px solid #40B0DC;
-  background-color: #40B0DC;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #34A8C4;
   color: white;
+  position: absolute;
+  top: 25px;
+  left: 396px;
 }
 .search {
-  // width: 475px;
+  width: 250px;
+  height: 30px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: $border;
+  position: absolute;
+  top: 25px;
+  left: 142px;
+
 
 }
 .sideSelectors {
-  float: right;
+  position: absolute;
+  top: 30px;
+  right: 150px;
 }
 .sideSelectors a {
+  font-size: 14px;
   color: #34A8C4;
 }
 .sideSelectors button {
+  font-size: 14px;
   background-color: white;
   color: #34A8C4;
   border: 1px solid #34A8C4;
