@@ -83,16 +83,15 @@ right:-66px;
     font-size: 12px;
     color: #888886;
   }
-
-
-}
+  }
 }
 .greySelectors {
   text-align: center;
   border: $border;
   height: 44px;
+  padding-left: 34px;
   display:flex;
-  justify-content: center;
+  justify-content: left;
 
   a {
     color: #888886;
@@ -104,6 +103,9 @@ right:-66px;
   .maincontent {
     font-size: 13px;
     background-color: #F5F5F1;
+  }
+  .imageArea {
+    width: 700px;
   }
   .sidebar {
     width: 200px;

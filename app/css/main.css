@@ -67,8 +67,9 @@ header {
   text-align: center;
   border: 1px solid #E1E3DF;
   height: 44px;
+  padding-left: 34px;
   display: flex;
-  justify-content: center; }
+  justify-content: left; }
   .greySelectors a {
     color: #888886;
     font-size: 14px;
@@ -77,6 +78,9 @@ header {
 .maincontent {
   font-size: 13px;
   background-color: #F5F5F1; }
+
+.imageArea {
+  width: 700px; }
 
 .sidebar {
   width: 200px;
