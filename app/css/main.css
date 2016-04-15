@@ -11,7 +11,8 @@ header {
   header .title a {
     color: #F56400;
     font-family: 'Alegreya', serif;
-    font-size: 42px; }
+    font-size: 42px;
+    padding-left: 16px; }
   header .title button {
     font-size: 14px;
     padding: 7px 15px 9px 15px;
@@ -24,29 +25,45 @@ header {
     top: 25px;
     left: 396px; }
   header .search {
-    width: 250px;
+    color: #C1C3BF;
+    font-size: 14px;
+    padding-left: 10px;
+    width: 255px;
     height: 30px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     border: 1px solid #E1E3DF;
     position: absolute;
     top: 25px;
-    left: 142px; }
+    left: 137px; }
   header .sideSelectors {
     position: absolute;
-    top: 30px;
-    right: 150px; }
+    top: 25px;
+    right: 110px; }
   header .sideSelectors a {
     font-size: 14px;
+    margin-right: 12px;
     color: #34A8C4; }
   header .sideSelectors button {
     font-size: 14px;
     background-color: white;
     color: #34A8C4;
-    border: 1px solid #34A8C4; }
+    border: 1px solid #34A8C4;
+    border-radius: 3px;
+    padding: 7px 10px; }
 
 .greySelectors {
+  text-align: center;
   border: 1px solid #E1E3DF;
-  height: 44px; }
+  height: 44px;
+  display: flex;
+  justify-content: center; }
+  .greySelectors a {
+    color: #888886;
+    font-size: 14px;
+    padding: 15px 15px 0 10px; }
+
+.maincontent {
+  background-color: #F5F5F1; }
 
 /*# sourceMappingURL=main.css.map */

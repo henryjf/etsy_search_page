@@ -20,6 +20,7 @@ header {
   color: #F56400;
   font-family: 'Alegreya', serif;
   font-size: 42px;
+  padding-left: 16px;
 }
 
 .title button {
@@ -35,24 +36,28 @@ header {
   left: 396px;
 }
 .search {
-  width: 250px;
+  color: #C1C3BF;
+  font-size: 14px;
+  padding-left: 10px;
+  width: 255px;
   height: 30px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border: $border;
   position: absolute;
   top: 25px;
-  left: 142px;
+  left: 137px;
 
 
 }
 .sideSelectors {
   position: absolute;
-  top: 30px;
-  right: 150px;
+  top: 25px;
+  right: 110px;
 }
 .sideSelectors a {
   font-size: 14px;
+  margin-right: 12px;
   color: #34A8C4;
 }
 .sideSelectors button {
@@ -60,10 +65,25 @@ header {
   background-color: white;
   color: #34A8C4;
   border: 1px solid #34A8C4;
+  border-radius: 3px;
+  padding: 7px 10px;
 }
 
 }
 .greySelectors {
+  text-align: center;
   border: $border;
   height: 44px;
+  display:flex;
+  justify-content: center;
+
+  a {
+    color: #888886;
+    font-size: 14px;
+    padding: 15px 15px 0 10px;
+  }
 }
+
+  .maincontent {
+    background-color: #F5F5F1;
+  }
