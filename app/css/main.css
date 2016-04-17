@@ -79,6 +79,18 @@ header {
 .maincontent {
   font-size: 13px;
   background-color: #F5F5F1; }
+  .maincontent .mainliright {
+    position: absolute;
+    top: 140px;
+    left: 1000px; }
+    .maincontent .mainliright a {
+      color: #34A8C4; }
+  .maincontent .mainlileft {
+    position: absolute;
+    top: 140px;
+    left: 350px; }
+    .maincontent .mainlileft a {
+      color: #34A8C4; }
   .maincontent .products {
     margin: 55px -30px 10px 5px;
     width: 75%;
@@ -110,13 +122,22 @@ header {
       float: right;
       margin-right: 5px; }
   .maincontent .main-left {
-    height: auto;
+    width: 25%;
+    border: 1px solid #F5F5F1;
     padding-bottom: 2000px; }
+    .maincontent .main-left aside {
+      width: 120px;
+      position: absolute;
+      top: 155px;
+      left: 60px; }
     .maincontent .main-left .sidebar {
-      width: 22%;
+      width: 80%;
       border: 1px solid #E1E3DF;
       background-color: white;
-      margin: 40px; }
+      margin: 55px 20px 0 55px; }
+      .maincontent .main-left .sidebar aside {
+        margin-top: 5px;
+        padding-left: 20px; }
     .maincontent .main-left .sidebar ul {
       list-style: none;
       color: #34A8C4; }
@@ -127,7 +148,11 @@ header {
   margin-top: 0;
   clear: both;
   background-color: #F5F5F1;
-  padding-left: 345px; }
+  padding-left: 345px;
+  padding-right: 264px;
+  position: absolute;
+  bottom: -2160px;
+  left: -5px; }
   .bottom a {
     font-size: 13px;
     color: #34A8C4;

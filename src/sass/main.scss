@@ -104,6 +104,24 @@ right:-66px;
     font-size: 13px;
     background-color: #F5F5F1;
 
+    .mainliright {
+      position: absolute;
+      top: 140px;
+      left: 1000px;
+      a {
+        color: #34A8C4;
+      }
+    }
+
+    .mainlileft {
+      position: absolute;
+      top: 140px;
+      left: 350px;
+      a {
+        color: #34A8C4;
+      }
+    }
+
   .products{
     margin: 55px -30px 10px 5px;
     width: 75%;
@@ -158,15 +176,28 @@ right:-66px;
     }
 
   .main-left {
-    height: auto;
+    width: 25%;
+    border: 1px solid #F5F5F1;
     padding-bottom: 2000px;
 
+    aside {
+        width: 120px;
+        position: absolute;
+        top: 155px;
+        left: 60px;
+    }
 
   .sidebar {
-    width: 22%;
+    width: 80%;
     border: $border;
     background-color: white;
-    margin: 40px;
+    margin: 55px 20px 0 55px;
+
+    aside{
+      margin-top: 5px;
+      padding-left: 20px;
+
+    }
 
   }
 
@@ -187,9 +218,10 @@ right:-66px;
     clear: both;
     background-color: #F5F5F1;
     padding-left: 345px;
-    // position: absolute;
-    // bottom: 15px;
-    // left: 50px;
+    padding-right: 264px;
+    position: absolute;
+    bottom: -2160px;
+    left: -5px;
     a {
       font-size: 13px;
       color: #34A8C4;
