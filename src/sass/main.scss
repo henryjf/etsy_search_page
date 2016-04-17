@@ -106,28 +106,34 @@ right:-66px;
   }
 
   .products{
+    margin: 55px -80px 10px 5px;
     width: 900px;
-    position:absolute;
-    right: -63px;
-    top: 179px;
+    float: right;
+    // position:absolute;
+    // right: -63px;
+    // top: 179px;
   }
 
   .imageArea {
     width: 250px;
-    border: 1px solid red;
+    height: 250px;
+    border: $border;
     float: left;
-    // position: absolute;
-    // right: 25px;
-    // top: 175px;
+    margin-right: 15px;
+    margin-bottom: 15px;
 
-    .img {
-      width: 200px;
+    img {
+      width: 250px;
+      border-bottom: $border;
+    }
+    h4 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
     }
 
-    // .img {
-    //   width:
-    // }
-  }
+    }
   .sidebar {
     width: 200px;
     border: $border;

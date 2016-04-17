@@ -80,17 +80,24 @@ header {
   background-color: #F5F5F1; }
 
 .products {
+  margin: 55px -80px 10px 5px;
   width: 900px;
-  position: absolute;
-  right: -63px;
-  top: 179px; }
+  float: right; }
 
 .imageArea {
   width: 250px;
-  border: 1px solid red;
-  float: left; }
-  .imageArea .img {
-    width: 200px; }
+  height: 250px;
+  border: 1px solid #E1E3DF;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px; }
+  .imageArea img {
+    width: 250px;
+    border-bottom: 1px solid #E1E3DF; }
+  .imageArea h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
 
 .sidebar {
   width: 200px;
