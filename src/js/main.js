@@ -32,6 +32,7 @@ items.forEach(function(item){
   <span>${item.price}</span>
   </div>
   `
+  // <img class="hamburger" src="{/images/hamburger.png}">
   // <a href="#">Jewelry</a>
   // for(var i = 0; i < 16; i ++);
   // return i = imageArea;

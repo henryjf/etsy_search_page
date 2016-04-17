@@ -80,7 +80,7 @@ header {
   font-size: 13px;
   background-color: #F5F5F1; }
   .maincontent .products {
-    margin: 55px -80px 10px 5px;
+    margin: 55px -30px 10px 5px;
     width: 75%;
     float: right; }
   .maincontent .imageArea {
@@ -124,24 +124,25 @@ header {
         padding-bottom: 10px; }
 
 .bottom {
-  border: 1px solid red;
+  margin-top: 0;
   clear: both;
-  background-color: #F5F5F1; }
+  background-color: #F5F5F1;
+  padding-left: 345px; }
   .bottom a {
     font-size: 13px;
     color: #34A8C4;
     margin-bottom: 5px; }
   .bottom .list {
-    border: 1px solid red;
-    width: 500px;
+    width: 600px;
     height: 150px; }
     .bottom .list .list1 {
-      border: 1px solid red;
       width: 130px;
-      float: left; }
+      float: left;
+      padding-right: 100px; }
     .bottom .list .list2 {
       width: 130px;
-      float: left; }
+      float: left;
+      padding-right: 100px; }
     .bottom .list .list3 {
       width: 130px;
       float: left; }

@@ -9882,6 +9882,7 @@ items.forEach(function (item) {
 
   // console.log(items);
   var imageArea = '\n  <div class="imageArea">\n  <img class="images" src="' + item.Images[0].url_170x135 + '"alt="">\n  <h4>' + item.title + '</h4>\n  <a href="#">' + item.Shop.shop_name + '</a>\n  <span>' + item.price + '</span>\n  </div>\n  ';
+  // <img class="hamburger" src="{/images/hamburger.png}">
   // <a href="#">Jewelry</a>
   // for(var i = 0; i < 16; i ++);
   // return i = imageArea;
