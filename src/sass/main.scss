@@ -3,6 +3,7 @@ $font-size: 14px;
 container {
   width: 100%;
   position: relative;
+  background-color: #F5F5F1;
 }
 
 a {
@@ -47,9 +48,8 @@ header {
   position: absolute;
   top: 25px;
   left: 137px;
-
-
 }
+
 .sideSelectors {
   position: absolute;
   top: 25px;
@@ -103,11 +103,10 @@ right:-66px;
   .maincontent {
     font-size: 13px;
     background-color: #F5F5F1;
-  }
 
   .products{
     margin: 55px -80px 10px 5px;
-    width: 900px;
+    width: 75%;
     float: right;
     // position:absolute;
     // right: -63px;
@@ -121,24 +120,44 @@ right:-66px;
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
+    background-color: white;
 
     img {
       width: 250px;
       border-bottom: $border;
     }
     h4 {
+      font-weight: 100;
+      padding-left:5px;
+      margin-top: 2px;
+      margin-bottom:10px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-
+    }
+    a {
+      color: #C1C3BF;
+      padding-left: 5px;
+    }
+    span {
+      color: #78C042;
+      float: right;
+      margin-right: 5px;
     }
 
     }
+
+  .main-left {
+    height: auto;
+    padding-bottom: 2000px;
+
+
   .sidebar {
-    width: 200px;
+    width: 22%;
     border: $border;
     background-color: white;
     margin: 40px;
+
   }
 
   .sidebar ul{
@@ -150,10 +169,12 @@ right:-66px;
       padding-bottom: 10px;
     }
   }
-
+}
+}
   .bottom {
     border: 1px solid red;
     clear: both;
+    background-color: #F5F5F1;
     a {
       font-size: 13px;
       color: #34A8C4;
